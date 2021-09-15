@@ -1,0 +1,3 @@
+http://pycare-api.herokuapp.com/status
+
+http://pycare-api.herokuapp.com/hospitalDetails

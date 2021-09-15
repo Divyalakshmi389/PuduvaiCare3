@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PUDUVAI CARE</title>
+    <H2><CENTER>PUDUCHERRY COVID-19 TRACKER</CENTER></H2>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+    <body>
+
+ 
+    
+
+    
+    <table class="table">
+        <tr>
+            <th>TOTAL</th>
+            <th>CURED</th>
+            <th>ACTIVE</th>
+            <th>DEATH</th>
+           
+        </tr>
+     <tr th:each="result : ${result}">
+          <td th:with="tot=lllllll"></td>
+            <td th:text="${result.cured}"></td>
+            <td th:text="${result.active}"></td>
+            <td th:text="${result.death}"></td>
+           
+    
+        <p>
+
+         Hey there! I'm <span th:text="${tot}"></span>!
+    </p>    
+            
+            
+         
+        </tr>
+        
+        </table>
+        <div th:with="name=ffff">
+         <p>
+
+         Hey there! I'm <th:text="${name}"/>!
+    </p>    
+         
+   
+</div>
+       
+        
+</html>

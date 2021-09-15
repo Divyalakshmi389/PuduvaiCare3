@@ -1,0 +1,111 @@
+
+#top
+{
+   color:white;
+    background-color: #00008B;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+#bottom
+{
+    
+  background-color:#Ebf5f0 ;
+  padding-bottom:2%;
+
+}
+#footer
+{
+  color:white;
+  background-color: black;
+  text-align:center;
+  padding-bottom:1%;
+  padding-top:1.5%;
+  
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  
+ 
+  .logo {
+    flex-basis: 15%;
+    padding-left: 10%;
+
+  }
+  
+  .heading {
+    font-size: 20px;
+padding-top:1%;
+   
+    
+  }
+
+
+.card
+{
+    text-align:center;
+     
+}
+.A,.B
+{
+margin-left:20%;
+margin-right:20%;
+margin-top:7%;
+margin-bottom:2%;
+}
+.HC,.BC
+{
+    padding:5%;
+}
+.C,.D
+{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:4%; 
+    margin-bottom:4%;
+}
+.HC1,.BC1
+{
+  font-weight: bold;
+  color:white;
+  background-color:#007FFF;
+}
+.HC2,.BC2
+{
+  font-weight: bold;	
+  color:white;
+  background-color:#FF0000	;
+}
+.HC3,.BC3
+{
+  font-weight: bold;	
+  color:white;
+  background-color:#7CFC00;
+}
+
+.HC4,.BC4
+{
+  font-weight: bold;	
+  color:white;
+  background-color:#2F4F4F	;
+}
+
+
+a:link {
+    color:#00008B;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #004792;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+  
