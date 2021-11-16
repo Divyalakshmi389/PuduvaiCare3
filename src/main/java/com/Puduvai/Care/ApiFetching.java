@@ -59,7 +59,7 @@ public class ApiFetching {
                 JSONArray arr = new JSONArray(str);
                 for (int i = 0; i < arr.length(); i++) {
 
-                    JSONObject new_obj = arr.getJSONObject(i);
+                    JSONObject new_obj = arr.getJSONObject(i);   //jsonobjct-obj contains keyvalue pairs
                     Tracker obj=new Tracker();
                   //  int total=Integer.parseInt(new_obj.get("total"));
                     

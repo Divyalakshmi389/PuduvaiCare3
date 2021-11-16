@@ -1,7 +1,7 @@
 package com.Puduvai.Care;
 
 public class Tracker {
-//	int total;
+
 	String cured,active,death,lastUpdatedOn,total;
 
 
